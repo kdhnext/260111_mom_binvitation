@@ -6,7 +6,9 @@
       "Bash(node split-images.js:*)",
       "Bash(node trim-images.js:*)",
       "Bash(git checkout:*)",
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
