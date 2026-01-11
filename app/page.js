@@ -1,4 +1,8 @@
 import Image from "next/image";
+import part1 from "../public/part1.png";
+import part2 from "../public/part2.png";
+import part3 from "../public/part3.png";
+import part4 from "../public/part4.png";
 
 export default function Home() {
   return (
@@ -70,7 +74,7 @@ export default function Home() {
             <div className="animate-float flex justify-center" style={{ animationDelay: "0s" }}>
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
-                  src="/part1.png"
+                  src={part1}
                   alt="캐릭터"
                   width={112}
                   height={112}
@@ -81,7 +85,7 @@ export default function Home() {
             <div className="animate-float flex justify-center" style={{ animationDelay: "0.2s" }}>
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
-                  src="/part2.png"
+                  src={part2}
                   alt="캐릭터"
                   width={112}
                   height={112}
@@ -92,7 +96,7 @@ export default function Home() {
             <div className="animate-float flex justify-center" style={{ animationDelay: "0.4s" }}>
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
-                  src="/part3.png"
+                  src={part3}
                   alt="캐릭터"
                   width={112}
                   height={112}
@@ -103,7 +107,7 @@ export default function Home() {
             <div className="animate-float flex justify-center" style={{ animationDelay: "0.6s" }}>
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
-                  src="/part4.png"
+                  src={part4}
                   alt="캐릭터"
                   width={112}
                   height={112}
