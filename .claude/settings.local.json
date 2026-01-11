@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "Bash(node split-images.js:*)",
+      "Bash(node trim-images.js:*)",
+      "Bash(git checkout:*)",
+      "Bash(node -e:*)"
+    ]
+  }
+}
