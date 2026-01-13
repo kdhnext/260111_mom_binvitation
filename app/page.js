@@ -48,7 +48,7 @@ export default function Home() {
 
           {/* 날짜 정보 */}
           <div className="text-center mb-6 bg-[#faf7f0] py-6 px-4">
-            <p className="text-[#8b7355] text-sm mb-2">DATE</p>
+            <p className="text-[#8b7355] text-base mb-2">DATE</p>
             <p className="text-2xl font-semibold text-[#5c4033] mb-1">
               2026년 1월 24일
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
 
           {/* 장소 정보 */}
           <div className="text-center mb-8 bg-[#faf7f0] py-6 px-4">
-            <p className="text-[#8b7355] text-sm mb-2">PLACE</p>
+            <p className="text-[#8b7355] text-base mb-2">PLACE</p>
             <p className="text-xl font-semibold text-[#5c4033]">
               인천 서구 가정로 194
             </p>
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
 
           {/* 푸터 */}
-          <div className="text-center mt-6 text-[#8b7355] text-sm">
+          <div className="text-center mt-6 text-[#8b7355] text-base">
             <p>함께해 주셔서 감사합니다</p>
           </div>
         </div>
