@@ -34,8 +34,9 @@ export default function Home() {
             <h2 className="text-2xl gold-shimmer font-bold mb-2">
               정애순 여사님
             </h2>
-            <p className="text-[#5c4033]">의 생신을 맞이하여</p>
-            <p className="text-[#5c4033]">가족 여러분을 초대합니다</p>
+            <p className="text-[#5c4033]">생신을 맞이하여</p>
+            <p className="text-[#5c4033]">사랑하는 가족 여러분을</p>
+            <p className="text-[#5c4033]">따뜻한 자리에 초대합니다</p>
           </div>
 
           {/* 구분선 */}
