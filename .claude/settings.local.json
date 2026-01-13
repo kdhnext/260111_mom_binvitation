@@ -13,7 +13,8 @@
       "Bash(npm run build:*)",
       "Bash(gh repo view:*)",
       "Bash(copy \"C:\\\\web\\\\nextjs\\\\260111_mom_binvitation\\\\public\\\\part1.png\" \"C:\\\\web\\\\nextjs\\\\260111_mom_binvitation\\\\public\\\\og-image.png\")",
-      "WebFetch(domain:kdhnext.github.io)"
+      "WebFetch(domain:kdhnext.github.io)",
+      "Bash(gh run:*)"
     ]
   }
 }

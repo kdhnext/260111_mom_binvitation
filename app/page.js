@@ -20,7 +20,7 @@ export default function Home() {
 
           {/* 헤더 */}
           <div className="text-center mb-8">
-            <p className="text-[#8b7355] text-lg tracking-widest mb-2">
+            <p className="text-[#8b7355] text-md tracking-widest mb-2">
               - INVITATION -
             </p>
             <h1 className="text-3xl font-semibold text-[#5c4033] mb-3">
@@ -31,7 +31,7 @@ export default function Home() {
 
           {/* 이름 */}
           <div className="text-center mb-8">
-            <h2 className="text-2xl gold-shimmer font-bold mb-2">
+            <h2 className="text-3xl gold-shimmer font-bold mb-2">
               정애순 여사님
             </h2>
             <p className="text-[#5c4033]">생신을 맞이하여</p>
@@ -49,7 +49,7 @@ export default function Home() {
           {/* 날짜 정보 */}
           <div className="text-center mb-6 bg-[#faf7f0] py-6 px-4">
             <p className="text-[#8b7355] text-lg mb-2">DATE</p>
-            <p className="text-2xl font-semibold text-[#5c4033] mb-1">
+            <p className="text-xl font-semibold text-[#5c4033] mb-1">
               2026년 1월 24일
             </p>
             <p className="text-lg text-[#c9a227] font-medium">
@@ -67,7 +67,10 @@ export default function Home() {
 
           {/* 캐릭터 갤러리 2x2 */}
           <div className="grid grid-cols-2 gap-6 mb-8 max-w-xs mx-auto">
-            <div className="animate-float flex justify-center" style={{ animationDelay: "0s" }}>
+            <div
+              className="animate-float flex justify-center"
+              style={{ animationDelay: "0s" }}
+            >
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
                   src={part1}
@@ -78,7 +81,10 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="animate-float flex justify-center" style={{ animationDelay: "0.2s" }}>
+            <div
+              className="animate-float flex justify-center"
+              style={{ animationDelay: "0.2s" }}
+            >
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
                   src={part2}
@@ -89,7 +95,10 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="animate-float flex justify-center" style={{ animationDelay: "0.4s" }}>
+            <div
+              className="animate-float flex justify-center"
+              style={{ animationDelay: "0.4s" }}
+            >
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
                   src={part3}
@@ -100,7 +109,10 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="animate-float flex justify-center" style={{ animationDelay: "0.6s" }}>
+            <div
+              className="animate-float flex justify-center"
+              style={{ animationDelay: "0.6s" }}
+            >
               <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#c9a227] shadow-lg">
                 <Image
                   src={part4}
@@ -154,7 +166,7 @@ export default function Home() {
           </div>
 
           {/* 푸터 */}
-          <div className="text-center mt-6 text-[#8b7355] text-lg">
+          <div className="text-center mt-6 text-[#8b7355] text-md">
             <p>함께해 주셔서 감사합니다</p>
           </div>
         </div>
