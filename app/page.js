@@ -20,7 +20,7 @@ export default function Home() {
 
           {/* 헤더 */}
           <div className="text-center mb-8">
-            <p className="text-[#8b7355] text-sm tracking-widest mb-2">
+            <p className="text-[#8b7355] text-lg tracking-widest mb-2">
               - INVITATION -
             </p>
             <h1 className="text-3xl font-semibold text-[#5c4033] mb-3">
