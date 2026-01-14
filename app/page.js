@@ -60,10 +60,10 @@ export default function Home() {
           {/* 장소 정보 */}
           <div className="text-center mb-8 bg-[#faf7f0] py-6 px-4">
             <p className="text-[#8b7355] text-lg mb-2">PLACE</p>
-            <p className="text-xl font-semibold text-[#5c4033]">
+            <p className="text-xl font-semibold text-[#5c4033] mb-1">
               고흥수산
             </p>
-            <p className="text-lg text-[#5c4033]">
+            <p className="text-lg text-[#c9a227] font-medium">
               서울 영등포구 당산로45길 7 2층
             </p>
           </div>
