@@ -61,7 +61,10 @@ export default function Home() {
           <div className="text-center mb-8 bg-[#faf7f0] py-6 px-4">
             <p className="text-[#8b7355] text-lg mb-2">PLACE</p>
             <p className="text-xl font-semibold text-[#5c4033]">
-              인천 서구 가정로 194
+              고흥수산
+            </p>
+            <p className="text-lg text-[#5c4033]">
+              서울 영등포구 당산로45길 7 2층
             </p>
           </div>
 
@@ -135,7 +138,7 @@ export default function Home() {
           {/* 지도 버튼 */}
           <div className="space-y-3">
             <a
-              href="https://map.naver.com/p/search/%EC%9D%B8%EC%B2%9C%20%EC%84%9C%EA%B5%AC%20%EA%B0%80%EC%A0%95%EB%A1%9C%20194"
+              href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EB%8B%B9%EC%82%B0%EB%A1%9C45%EA%B8%B8%207"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-4 bg-green-500 hover:bg-green-600 text-white font-medium rounded-2xl transition-colors"
@@ -146,7 +149,7 @@ export default function Home() {
               네이버 지도로 보기
             </a>
             <a
-              href="https://map.kakao.com/?q=인천 서구 가정로 194"
+              href="https://map.kakao.com/?q=서울 영등포구 당산로45길 7"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-4 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium rounded-2xl transition-colors"
