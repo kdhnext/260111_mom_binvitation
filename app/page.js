@@ -49,10 +49,10 @@ export default function Home() {
           {/* 날짜 정보 */}
           <div className="text-center mb-6 bg-[#faf7f0] py-6 px-4">
             <p className="text-[#8b7355] text-lg mb-2">DATE</p>
-            <p className="text-xl font-semibold text-[#5c4033] mb-1">
+            <p className="text-2xl font-bold text-[#5c4033] mb-1">
               2026년 1월 24일
             </p>
-            <p className="text-lg text-[#c9a227] font-medium">
+            <p className="text-md text-[#c9a227] font-medium">
               토요일 오후 4시
             </p>
           </div>
@@ -60,10 +60,8 @@ export default function Home() {
           {/* 장소 정보 */}
           <div className="text-center mb-8 bg-[#faf7f0] py-6 px-4">
             <p className="text-[#8b7355] text-lg mb-2">PLACE</p>
-            <p className="text-xl font-semibold text-[#5c4033] mb-1">
-              고흥수산
-            </p>
-            <p className="text-lg text-[#c9a227] font-medium">
+            <p className="text-2xl font-bold text-[#5c4033] mb-1">고흥수산</p>
+            <p className="text-md text-[#c9a227] font-medium">
               서울 영등포구 당산로45길 7 2층
             </p>
           </div>
